@@ -12,11 +12,7 @@ body
     
     
 }
-/* .bg{
-    background-image:url("/images/FB_IMG_1562429558442.jpg");
-    filter:blur(5px);
 
-} */
   a{
       color:white;
       text-decoration: none;
@@ -33,7 +29,6 @@ body
       text-align: right;
       position: sticky;
       float: right;
-      color: cyan;
       margin-top: 30px;
       
   }
