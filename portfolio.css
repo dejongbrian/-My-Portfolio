@@ -54,13 +54,17 @@ body
       display:flex;
       clear: both;
   }
-.about{  
+#about{  
     color:white;
     padding-top:30px;
     text-align:center;
     font-size:3em;
     flex-flow: row;
     clear:both;
+}
+.brayo{
+    font-size: 25px;
+    text-align:center;
 }
 .info{
     font-size:25px;
