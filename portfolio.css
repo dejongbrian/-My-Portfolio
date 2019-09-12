@@ -116,3 +116,10 @@ h3{
     padding:20px;
     margin-top: 100px;
 }
+#photo{
+    /* color:black; */
+    display:flex;
+    padding-bottom:20px;
+    filter:blur(0px);
+    flex-direction:row;
+}
