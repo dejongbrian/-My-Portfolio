@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Gill Sans MT'
+}
+body
+{
+    
+    background-color:black;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    
+}
+/* .bg{
+    background-image:url("/images/FB_IMG_1562429558442.jpg");
+    filter:blur(5px);
+
+} */
+  a{
+      color:white;
+      text-decoration: none;
+      padding:7px;
+      padding-top:50px;
+      font-size: 2em;
+      
+
+    
+  }
+  nav{
+      background-color: brown;
+      width: 99%;
+      text-align: right;
+      position: sticky;
+      float: right;
+      color: cyan;
+      margin-top: 30px;
+      
+  }
+  h1{
+    
+     color:white;
+     font-family:'Script MJ Bold';
+     font-size:3em;
+     padding-left: 200px;
+     padding-top:70px;
+     
+  }
+  .me{
+      font-size: 2em;
+      text-align:center;
+      padding-left:250px;
+      padding-top:130px;
+      display:flex;
+      clear: both;
+  }
+.about{  
+    color:white;
+    padding-top:30px;
+    text-align:center;
+    font-size:3em;
+    flex-flow: row;
+    clear:both;
+}
+.info{
+    font-size:25px;
+    padding:7em;
+    color:white;
+    float:left;
+    margin-top: 200px;
+    box-shadow: 7px 10px 5px #a86d6d;
+}
+.cont{
+    display:flex;
+    float:left;
+    clear: both;
+}
