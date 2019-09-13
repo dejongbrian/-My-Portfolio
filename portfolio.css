@@ -117,8 +117,14 @@ h3{
     display:flex;
     padding-bottom:20px;
     filter:blur(0px);
-    flex-direction:row;
-    float:left;
+    /* flex-direction:row; */
+    /* float:left; */
+    flex-direction: row;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-size: 3em;
 }
 #field{
     color:whitesmoke;
