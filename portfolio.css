@@ -57,6 +57,7 @@ body
     font-size:3em;
     flex-flow: row;
     clear:both;
+    padding: 90px;
 }
 .brayo{
     color:black;
@@ -82,15 +83,26 @@ li{
     background: rgba(0, 0, 0, 0.459);
     background: rgb(255, 255, 255);
     color: #f1f1f1; 
-    width: 100%;
+    width: 70%;
     height:100%;
     text-align:justify;
-    /* padding:30px; */
+    marging-left;70px;
    
+}
+.overlay2{
+    position:relative; 
+    bottom: 0; 
+    background: rgba(90, 32, 32, 0.459);
+    /* background: rgb(255, 255, 255); */
+    color: #f1f1f1; 
+    width: 70%;
+    height:100%;
+    text-align:center;
+
 }
 .info{
     font-size:25px;
-    padding:7em;
+    padding:8em;
     color:white;
     float:left;
     margin-top: 200px;
