@@ -17,13 +17,15 @@ body
   .nav{
       color:white;
       text-decoration: none;
-      padding-bottom:30px;
-      padding:30px;
+      top: 5px;
+      padding:20px;
       font-size: 2em;
+      margin:5px;
       
 
     
   }
+
   nav{
       background-color: brown;
       width: 99%;
@@ -31,7 +33,7 @@ body
       position:fixed;
       float: right;
       /*margin-top: 30px;*/
-      top:-5px;
+      top:0px;
       height:70px;
   }
   h1{
@@ -40,9 +42,12 @@ body
      font-family:'Script MJ Bold';
      font-size:3em;
      padding-left: 200px;
-     padding-top:70px;
-     
-  }
+     padding-top:60px;
+     /* position:fixed; */
+     }
+  /* .start{
+       padding:30px;
+} */
   .me{
       font-size: 2em;
       text-align:center;
@@ -115,13 +120,14 @@ li{
     padding:8em;
     color:white;
     float:left;
-    margin-top: 200px;
+    margin-top: 170px;
     box-shadow: 7px 10px 5px #a86d6d;
 }
 .cont{
     display:flex;
     float:left;
     clear: both;
+    padding:40px;
 }
 .ab{
     background-color:#a86d6d;
@@ -208,10 +214,17 @@ h4{
   }
 
   .rights{
+      /* margin-right:580px; */
        color:white;
        text-align: center;
    }
 
    #media{
-    margin-left: 600px;
+    /* margin-left: 590px; */
+    text-align: center;
+   }
+   #cont{
+       color:white;
+       text-align:center;
+       font-size:30px;
    }
