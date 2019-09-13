@@ -117,6 +117,7 @@ h3{
     padding-bottom:20px;
     filter:blur(0px);
     flex-direction:row;
+    float:left;
 }
 #field{
     color:whitesmoke;
