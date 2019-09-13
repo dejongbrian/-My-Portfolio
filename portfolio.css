@@ -169,6 +169,13 @@ h3{
 hr{
     color: rgb(134, 25, 25);
 }
+.soccer{
+    color:white;
+    font-size:2em;
+    text-decoration:none;
+    /* text-align: center; */
+    margin-left:20px;
+}
 h4{
     color: white;
     text-align: center;
