@@ -133,7 +133,7 @@ h4{
 }
 
 .fa {
-    padding: 20px;
+    padding: 20px; 
     font-size: 50px;
     width: 30px;
     text-align: center;
@@ -141,6 +141,7 @@ h4{
     margin: 5px 2px;
     border-radius:50%;
     position:relative;
+    margin-left: 20px;
     
 }
 /* .fa{
@@ -172,7 +173,13 @@ h4{
   }
   .fa:hover {
     opacity: 0.8;
-}
-#media{
-    margin-left: 100px;
-}
+  }
+
+  .rights{
+       color:white;
+       text-align: center;
+   }
+
+   #media{
+    margin-right: 2 00px;
+   }
