@@ -4,105 +4,109 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width  , initial scale=1.0">
         <title>Portfolio</title> 
-        <link rel="stylesheet" type="text/css" href="portfolio.css">
+        <link rel="stylesheet" type="text/css" href="portfolio.css" media="all">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
     </head>
     <body>
+        <body background="https://www.desktopbackground.org/download/1024x600/2011/07/10/232413_abstract-black-dark-red-best-widescreen-backgrounds-awesome_1024x768_h.jpg">
+        </body>
         <div id="nav">
             <nav>
                 <ul>
-                 <a href="#home">Home</a>
-                 <a href="#about">About</a>
-                 <a href="#gallery">Gallery</a>
-                 <a href="#contacts">Contacts</a>
+                 <a class="nav"  href="#home" >Home</a>
+                 <a  class="nav" href="#about">About</a>
+                 <a  class="nav" href="#gallery">Gallery </a>
+                 <a  class="nav" href="#projects">Projects</a>
+                 <a  class="nav" href="#contacts">Contacts</a>
                 </ul>
             </nav>
         </div>
-        <h1><em>Brian Ochieng'</em></h1>
+       <div id="home"><h1><em>B.O'</em></h1></div>
         <div class="cont">
        <div class="me">
          <img   src="/images/FB_IMG_1562429558442.jpg" width="400" >
         </div>
  
-        <div class="info">
-         <p>Hello I'm Brian Ochieng' </p>
+     <div class="info">
+     <p><strong>BRIAN OCHIENG'</strong></p>
         
-        <div><p><em>Footballer & Software Developer.</em></p></div>
-      
-        </div>
+    <div><p><em>Footballer | Software Developer.</em></p></div>
     </div>
-  
+    </div>
+   
     <div id="about">
-     <div><h2>About</h2></div>
-     <div class="overlay1">
+            
+     <div class="ab"><h2>About</h2></div>
+   
+         <div class="brian">
       <p class="brayo"> 
         Hi am Brian Ochieng,Kenyan by birth born and brought up in Nairobi. Growing up in eastlands Nairobi where I also went to primary school  before joining High school.
         Currently am at Moringa School taking a course in software engineering, the end goal being to be a world class software developer.
         Apart from being a student am also very good at football (soccer),I've been playing football my entire life so its a big part of my life . 
         Am good with other people,able to work with in a group,a team player,can perfom under/without pressure and lastly a born leader.
       </p>
+    
       <div class="hob">
           <h2 id="hob">Hobbies:</h2>
-          <ol>
+          <ul>
               <li>Playing & watching football</li>
               <li>Traveling</li>
               <li>Socializing with friends</li>
               <li>Listening to music</li>
-          </ol>
+          </ul>
         </div>
-     </div>
-    
-    
+      
     </div>
-    <div id="gallery"><h3>Gallery</h3></div>
-        <div id="photos">
-            <div class="orange">
-            <img src="/images/18836893_1902669133347823_4982734476580036165_o_2.jpg" width="550" height="350">
-            <div id="1"></div>
-            <img src="/images/IMG_7272.JPG" width="550" height="350">
-            <div id="2"></div>
-            </div>
-
-            <div class="black">
-                    <img src="/images/FB_IMG_1562429609107.jpg" width="550" height="350">
-                    <div id="3"></div>
-                    <img src="/images/14183810_1493935660648664_5669162516338833748_n.jpg" width="550" height="350">
-                    <div id="4"></div>
-            </div>
-
-                   
      </div>
 
-     <hr>
-     <div><h4>My Projects</h4></div>
-
+    <div id="gallery">
+        <h3>Gallery</h3></div>
+        <div id="photos">
+            <img class="pic" src="/images/18836893_1902669133347823_4982734476580036165_o_2.jpg" width="440" height="300">
+            <img class="pic" src="/images/IMG_7272.JPG" width="440" height="300">
+            <img class="pic" src="/images/FB_IMG_1562429609107.jpg" width="440" height="300">
+            <img class="pic" src="/images/14183810_1493935660648664_5669162516338833748_n.jpg" width="440" height="300">
+            <img class="pic" src="/images/IMG_20190703_172942_641.jpg" width="440" height="300" >
+            <img class="pic" src="/images/IMG_20190703_172959_758.jpg" width="440" height="300" >
+            
+        </div>   
+    </div>
+    </div>
+    <hr>
+     <div id="projects"><h4> My Projects </h4>
+      <p><img src="/images/screencapture-dejongbrian-github-io-254Soccer-index-html-2019-09-13-22_03_03.png" width="700"></p>
+      <p class="lang">Languages used are HTML & CSS</p>
+      <div><a class="pro" href="https://dejongbrian.github.io/254Soccer/">254Soccer Shop</a></div>
+      <p><img src="images/screencapture-127-0-0-1-5502-index-html-2019-09-15-08_52_07.png" width="700"></p>
+      <p class="lang">Language used HTML only</p>
+      <div><a class="pro" href="https://dejongbrian.github.io/my-cookie-recipe/">My Cookie Recipe</a></div>
+    </div>
 
      <div id="contacts"><h5>Contacts</h5></div>
      <form action="/submit_page.php">
         <fieldset id="field">
-            <legend>Contact Us</legend>
+            <legend><em>Contact Me</em></legend>
             <p>Name:</p><input type="text">
             <p>Email:</p><input type="text">
             <p id="ur">Your Message:</p><input type="text"  maxlength="20" size="70" ><br>
-            <input type="submit" value="Submit">
+            <p><em><input type="submit" value="Submit"></em></p>
   
         </fieldset> 
       </form>
       
-      <div class="cont"><h6>Contacts</h6>
+      <div id="cont"><h6>Contacts</h6>
           <p id="contacts"><strong>Location:Nairobi<br>Telephone:+254 713 786 896 /+254 753 868 266<br>Email:bochieng25@gmail.com/dejongbrian4@yahoo.com</strong>
           </p>
       </div>
       <div id="media">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-google"></a>
-          <a href="#" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/dejongbrian" class="fa fa-facebook"></a>
+        <a href="hhtps://www.twitter.com/BrianOOchieng4" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/brianochieng4" class="fa fa-instagram"></a>
+      </div>
+      
 
-
-
-     
+     <p class="rights"><em>&copyCopyright 2019. All rights reserved.</em></p>
     </body>
 
 </html>
