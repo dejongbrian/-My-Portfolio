@@ -14,4 +14,7 @@ It tells us where his from,where he studied,where he is currently studing and it
 
 There are a few of my photos in the gallery section and lastly my contact information.
 
+Technologies Used:
+HTML and CSS
+
 
